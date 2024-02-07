@@ -1,0 +1,45 @@
+.moon {
+  background-color: #d7d9ce;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  grid-column-start: 4;
+  z-index: 3;
+}
+.sky {
+  background-color: #040404;
+  height: 500px;
+  width:auto
+  z-index: 0
+}
+.water {
+  background-color: #13505b;
+  height: 175px;
+  width: 100%;
+  grid-row-start: 4;
+  grid-row-end:span 6;
+  grid-column-start: 1;
+grid-column-end: 6;
+  z-index: 0;
+}
+.iceburg{
+    height:100px;
+    width:300px;
+    grid-row-start:4;
+    grid-row-end:6;
+    grid-column-start:3;
+    border-radius: 50%;
+    background-color: #C2E9FF;
+    z-index: 1;
+}
+body {
+  background-color: #040404;
+  z-index: -1;
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  height: 100%;
+}
+html.body{
+    height:100%;
+}
